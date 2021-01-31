@@ -62,7 +62,7 @@ class EmployeeList extends Component {
             <div className="col-md-4 text-center"></div>
             <div className="col-md-4 text-center">
               <input
-                className="form-control py-3 mt-4"
+                className="form-control py-3 my-4"
                 type="text"
                 name="search"
                 onChange={this.handleInputChange}
