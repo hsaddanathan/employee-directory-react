@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/Header/header.css"],"names":[],"mappings":"AAAA,QACI,qBAAsB,CACtB,UACJ,CACA,GACI,cACJ,CAEA,EACI,cACJ","file":"main.fdc21e4a.chunk.css","sourcesContent":[".header{\n    background-color: teal;\n    color: white;\n}\nh1{\n    font-size: 60px;\n}\n\np{\n    font-size: 28px;\n}"]}
