@@ -9,10 +9,12 @@ class EmployeeList extends Component {
     search: "",
   };
 
+//When component successfully mounts runs axios call
   componentDidMount() {
     this.getEmployees();
   }
 
+//   API CALL
   getEmployees = () => {
     axios.get("https://randomuser.me/api/?results=125").then((response) => {
       console.log(response.data.results);
@@ -22,6 +24,8 @@ class EmployeeList extends Component {
       });
     });
   };
+
+//   Filters Search Bar on Change
   handleInputChange = (event) => {
     const { name, value } = event.target;
     const filterEmployees = this.state.employees.filter((employee) => {
@@ -32,6 +36,7 @@ class EmployeeList extends Component {
       filteredEmployees: filterEmployees,
     });
   };
+//   Sorts Descending Order
   handleSortDownName = () => {
       const sortedReverse = this.state.filteredEmployees.sort((a,b) => {
           return a.name.first > b.name.first ? -1 : 1;
@@ -40,7 +45,7 @@ class EmployeeList extends Component {
           filteredEmployees: sortedReverse
       });
   }
-
+//Sorts Ascending Order
   handleSortUpName = () => {
     const sortedReverse = this.state.filteredEmployees.sort((a,b) => {
         return a.name.first > b.name.first ? 1 : -1;
