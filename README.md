@@ -34,7 +34,8 @@ Alternatively, you can navigate to https://hsaddanathan.github.io/employee-direc
     * React
     
 ## Demo
-![Employee Directory](public/assets/budget-app.png)
+![Employee Directory](public/assets/employee-directory.png)
+![Employee Directory Demo](public/assets/employee-directory.gif)
 
 
 ## Links
@@ -42,7 +43,7 @@ Alternatively, you can navigate to https://hsaddanathan.github.io/employee-direc
 Employee Directory Github Pages URL:
     https://hsaddanathan.github.io/employee-directory-react/
 
-Budget App GitHub Repo:
+Employee GitHub Repo:
     https://github.com/hsaddanathan/employee-directory-react
 
 ## Contributors 
