@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <div className="header text-center">
             <h1>Employee Directory</h1>
-            <p>Sort by Last Name or Search by City!</p>
+            <p>Sort by First Name or Search by City!</p>
         </div>
     );
 };
