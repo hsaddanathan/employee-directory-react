@@ -68,7 +68,7 @@ class EmployeeList extends Component {
             <div className="col-md-4 text-center"></div>
           </div>
           <div className="col-md-12">
-            <table className="table">
+            <table className="table table-success table-striped">
               <thead className="text-center">
                 <tr>
                   <th scope="col">Picture</th>
